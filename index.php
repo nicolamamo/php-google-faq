@@ -40,8 +40,8 @@ foreach ($faqs as $faq ) {?>
     <h1>
     <?php
     echo $faq['answer']; ?>
-    </h1>
-};
+</h1><?php  
+}?>
 
 
     </body>
