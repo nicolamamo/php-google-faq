@@ -2,9 +2,10 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>google faq</title>
     </head>
     <body>
+        <h1>google faq</h1>
         <!--creo un array per tutte la faqs con chiavi question e answer -->
      <?php $faqs = [
          [
@@ -40,7 +41,7 @@ foreach ($faqs as $faq ) {?>
     <?php
     echo $faq['answer']; ?>
     </h1>
-}
+};
 
 
     </body>
