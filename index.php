@@ -37,10 +37,10 @@ foreach ($faqs as $faq ) {?>
     <?php
     echo $faq['question']; ?>
     </h1>
-    <h1>
+    <p>
     <?php
     echo $faq['answer']; ?>
-</h1><?php  
+</p><?php
 }?>
 
 
